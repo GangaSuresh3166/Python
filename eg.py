@@ -7,7 +7,8 @@ elif(mark<=80 and mark>70):
     print("grade=C")
 elif(mark<=70 and mark>60):
     print("grade=D")
-elif(mark>100):
+elif(mark<0 and mark>100):
     print("invalid")
 else:
     print("failed")
+
