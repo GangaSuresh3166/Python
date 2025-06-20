@@ -1,10 +1,8 @@
-num = int(input("Enter a number: "))
-sum = 0
-temp = num
+i =int(input("Enter a number: "))
+j=0
+while(i>0):
+    a=i%10
+    j=j+a
+    i=i/10
 
-while temp > 0:
-    digit = temp % 10      # Get the last digit
-    sum += digit    # Add it to sum
-    temp //= 10      # Remove the last digit
-
-print("sum of digits:",sum)
+print("sum of digits:",j)
