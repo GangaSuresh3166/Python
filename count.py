@@ -8,3 +8,4 @@ while a>0:
 if i==0:
     j=1
 print("number of digits:",j)
+
