@@ -1,0 +1,2 @@
+User logged in at 2025-08-11 20:27:33.040590
+User logged out at 2025-08-11 20:27:33.042503
